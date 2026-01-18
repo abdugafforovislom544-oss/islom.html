@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduPlay — Interaktiv Ta'lim Platformasi</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #f4f6f9; color: #222; }
+    header { background: linear-gradient(90deg, #3b82f6, #06b6d4); color: white; padding: 20px; text-align: center; }
+    header h1 { font-size: 2rem; }
+    nav { background: #fff; display: flex; justify-content: center; gap: 25px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    nav a { text-decoration: none; color: #3b82f6; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #06b6d4; }
+
+    .hero {
+      text-align: center; padding: 80px 20px;
+      background: url('https://cdn.pixabay.com/photo/2017/08/06/22/01/laptop-2593016_960_720.jpg') center/cover no-repeat;
+      color: white; background-blend-mode: multiply; background-color: rgba(0,0,0,0.5);
+    }
+    .hero h2 { font-size: 2.2rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.1rem; }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; }
+    .card {
+      background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px; transition: 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { color: #3b82f6; margin-bottom: 10px; }
+
+    footer {
+      background: #3b82f6; color: white; text-align: center; padding: 15px;
+      margin-top: 40px; font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduPlay — O‘yin orqali o‘rgan!</h1>
+    <p>O‘quvchilar va o‘qituvchilar uchun interaktiv ta’lim platformasi</p>
+  </header>
+
+  <nav>
+    <a href="#">Bosh sahifa</a>
+    <a href="#">Fanlar</a>
+    <a href="#">O‘yinlar</a>
+    <a href="#">Metodikalar</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Ta’limni qiziqarli va interaktiv qilamiz 🎮</h2>
+    <p>Darslarni o‘yin orqali o‘rganing, ball to‘plang va do‘stlaringiz bilan raqobat qiling!</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>🎓 O‘quvchilar uchun</h3>
+      <p>O‘yinlar, testlar va qiziqarli darslar orqali bilimni mustahkamlash imkoniyati.</p>
+    </div>
+    <div class="card">
+      <h3>👩‍🏫 O‘qituvchilar uchun</h3>
+      <p>Yangi metodlar, dars g‘oyalari va interaktiv materiallarni ulashish maydoni.</p>
+    </div>
+    <div class="card">
+      <h3>🧠 Reyting tizimi</h3>
+      <p>Faol o‘quvchilar va ijodkor o‘qituvchilarni kuzatib boring!</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 EduPlay. Barcha huquqlar himoyalangan.
+  </footer>
+
+  <script>
+    console.log("EduPlay sayti yuklandi 🚀");
+  </script>
+</body>
+</html>
